@@ -1,0 +1,46 @@
+
+.form-container {
+    background-color: #f9f9f9; /* Light background color */
+    border: 1px solid #ddd;    /* Light border */
+    border-radius: 8px;        /* Rounded corners */
+    padding: 20px;             /* Padding around the content */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    max-width: 400px;          /* Limit the width */
+    margin: 20px auto;         /* Center the form */
+}
+
+label {
+    font-weight: bold;         /* Make the label bold */
+    display: block;            /* Make label a block element */
+    margin-bottom: 10px;      /* Spacing below the label */
+}
+
+textarea {
+    width: 100%;               /* Full width */
+    height: 100px;            /* Fixed height */
+    border: 1px solid #ccc;   /* Border color */
+    border-radius: 4px;       /* Rounded corners */
+    padding: 10px;            /* Padding inside the textarea */
+    font-size: 16px;          /* Font size */
+    resize: vertical;         /* Allow vertical resizing */
+}
+
+textarea:focus {
+    border-color: #007bff;    /* Change border color on focus */
+    outline: none;             /* Remove default outline */
+}
+
+button {
+    background-color: #007bff; /* Primary button color */
+    color: white;              /* Text color */
+    border: none;              /* No border */
+    border-radius: 4px;       /* Rounded corners */
+    padding: 10px 15px;       /* Padding inside button */
+    font-size: 16px;          /* Font size */
+    cursor: pointer;           /* Change cursor to pointer */
+    transition: background-color 0.3s; /* Transition for hover effect */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}

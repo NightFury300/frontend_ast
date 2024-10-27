@@ -1,0 +1,47 @@
+/* RuleCard.css */
+
+.rule-card {
+    background-color: #ffffff; /* White background */
+    border: 1px solid #ddd;    /* Light gray border */
+    border-radius: 8px;        /* Rounded corners */
+    padding: 15px;             /* Padding inside the card */
+    margin: 10px 0;           /* Margin between cards */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    display: flex;             /* Flexbox for layout */
+    align-items: center;       /* Center items vertically */
+    justify-content: space-between; /* Space between elements */
+}
+
+.rule-card input[type="text"] {
+    border: 1px solid #ccc;   /* Border color */
+    border-radius: 4px;       /* Rounded corners */
+    padding: 8px;             /* Padding inside the text input */
+    font-size: 16px;          /* Font size */
+    width: 200px;             /* Fixed width */
+}
+
+.rule-card input[type="checkbox"] {
+    margin-right: 10px;       /* Space between checkbox and input */
+}
+
+.rule-card button {
+    background-color: #007bff; /* Primary button color */
+    color: white;              /* Text color */
+    border: none;              /* No border */
+    border-radius: 4px;       /* Rounded corners */
+    padding: 10px 15px;       /* Padding inside button */
+    font-size: 16px;          /* Font size */
+    cursor: pointer;           /* Change cursor to pointer */
+    transition: background-color 0.3s; /* Transition for hover effect */
+}
+
+.rule-card button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+.rule-card h4 {
+    margin: 0;                 /* Remove default margin */
+    flex-grow: 1;              /* Allow heading to grow */
+    padding-left: 10px;        /* Space on the left of the heading */
+    color: #333;               /* Darker text color */
+}

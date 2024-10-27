@@ -1,0 +1,14 @@
+/* RulesList.css */
+
+.rules-list {
+    max-width: 600px;           /* Limit the width of the list */
+    margin: 20px auto;         /* Center the list horizontally */
+    padding: 10px;             /* Padding around the list */
+}
+
+.rules-list h2 {
+    text-align: center;         /* Center the heading */
+    color: #333;                /* Dark text color */
+    margin-bottom: 20px;       /* Space below the heading */
+}
+

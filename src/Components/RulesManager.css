@@ -1,0 +1,36 @@
+.rules-manager {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #efebeb;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.result {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 1.2em;
+}
+
+button {
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.error {
+    color: red;
+}
+
+.success {
+    color: green;
+}
+
+.warning {
+    color: rgb(202, 8, 8);
+}
